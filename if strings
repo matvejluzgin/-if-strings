@@ -1,0 +1,7 @@
+ if strings.Join(display, "") == secretWord {
+   fmt.Println("Congratulations, you've guessed the word!")
+   return
+  }
+ }
+ fmt.Println("Sorry, you've run out of guesses. The word was", secretWord)
+}
